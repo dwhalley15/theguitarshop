@@ -1,0 +1,113 @@
+/* Mobile View */
+
+body{
+  font-family: Georgia, serif;
+}
+
+a{
+  outline: none;
+  border: none;
+}
+
+h3{
+  text-align: center;
+}
+
+.error{
+  display:none;
+  color: red;
+}
+
+.errorShown{
+  color: red;
+}
+
+.line{
+  text-decoration: line-through;
+}
+
+.oos{
+  background-color: grey;
+  padding: 10px;
+  width: 50%;
+  margin-left: 75px;
+}
+
+.confirmBtn{
+  background-color: #476422;
+  border: none;
+  color: #F6E8B1;
+  padding: 15px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+  width: 80%;
+  margin-top: 10px;
+  box-shadow: 0 9px #999;
+  font-family: Georgia, serif;
+  cursor: pointer;
+}
+
+.confirmBtn:hover{
+  background-color: #001700;
+}
+
+.confirmBtn:active{
+  background-color: #001700;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  outline: none;
+  border: none;
+}
+
+.confirmBtn:focus{
+  outline: none;
+  border: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 20px;
+}
+
+li{
+  margin: 10px;
+}
+
+#saleRedLabel{
+  display:none;
+}
+
+#saleReduction{
+  display:none;
+}
+
+.onSale{
+  color:red;
+  text-shadow: 1px 1px #1b0f2b;
+}
+
+/* Fullscreen view */
+
+@media screen and (min-width: 600px){
+
+  .confirmBtn{
+    width: 94%;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 20px;
+  }
+  
+  li{
+    margin: 20px 20px 20px 400px;
+    width: 100%;
+  }
+  
+  .oos{
+    margin-left: 300px;
+  }
+
+}

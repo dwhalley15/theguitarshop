@@ -1,0 +1,86 @@
+/* Mobile View */
+
+#ordersTab{
+  overflow: scroll;
+  height: 860px;
+}
+
+.orderItem{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 100%;
+  margin: 10px;
+  display:flex;
+  padding: 10px;
+}
+
+.orderItems{
+  margin: 20px;
+  width:80%;
+}
+
+.allOrders{
+  height: 860px;
+  overflow: scroll;
+  margin: 5px;
+}
+
+.allOrdersTable{
+  width:100%
+}
+
+.allOrdersTable tr{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.allOrdersTable td{
+  text-align: center;
+  height: 30px;
+}
+
+.allOrdersTable th{
+  text-align: center;
+  height: 30px;
+}
+
+#tableTh{
+  box-shadow: none;
+}
+
+/* Fullscreen view */
+
+@media screen and (min-width: 600px){
+  
+  .payment{
+    width:45%;
+    margin: 20px;
+    align-self: flex-start;
+  }
+
+  .orders{
+    display:flex;
+    border: none;
+    width: 100%;
+  }
+
+  .orderItems{
+    display:flex;
+    width:40%;
+    flex-direction: column;
+    flex: 1 1 auto;
+  }
+
+  #updateAccountForm{
+    margin:60px;
+  }
+
+  .allOrders{
+  margin:20px;
+  padding:20px;
+  }
+
+  .allOrdersTable td{
+    padding:5px;
+    margin: 5px;
+  }
+  
+}

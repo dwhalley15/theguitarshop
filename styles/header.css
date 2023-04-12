@@ -1,0 +1,221 @@
+/* Mobile View */
+
+.banner{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+  background-color: #607D3B;
+  padding: 20px;
+  border: 2px outset #001700;
+}
+
+#bannerGuitar{
+  display:none;
+}
+
+.shopName{
+  color: #F6E8B1;
+  font-size: 24px;
+  text-shadow: 2px 2px #001700;
+}
+
+.nav{
+  display: none;
+}
+
+.dropdown{
+  overflow: hidden;
+}
+
+.dropdownBtn{
+  padding: 5px;
+}
+
+.search{
+  display: none;
+}
+
+#accountIcon{
+  display: none;
+  padding: 5px;
+}
+
+#checkoutIcon{
+  padding: 5px;
+  position: relative;
+}
+
+.dropdownBtn:hover{
+  background-color: #476422;
+  cursor: pointer;
+}
+
+.searchIcon{
+  padding: 5px;
+}
+
+.searchIcon:hover{
+  background-color: #476422;
+  cursor: pointer;
+}
+
+#checkoutIcon:hover{
+  background-color: #476422;
+  cursor: pointer;
+}
+
+#accountIcon:hover{
+  background-color: #476422;
+  cursor: pointer;
+}
+
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+
+.dropdownContent {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdownContent a {
+  float: none;
+  background-color: white;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdownContent a:hover {
+  background-color: #607D3B;
+  color: #F6E8B1;
+}
+
+.shopLogoLink{
+  all: unset;
+  cursor: pointer;
+}
+
+.cartFloat{
+  color: #F6E8B1;
+  text-decoration: none;
+  position: absolute;
+  font-weight: bold;
+  text-align: center;
+  top: 5%;
+}
+
+/* FullScreen View */
+
+@media screen and (min-width: 600px){
+
+  .nav {
+    background-color: #607D3B;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-style: none outset outset outset;
+    border-width: 2px;
+    border-color: #001700;
+  }
+
+  .nav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    outline: none;
+    border: none;
+  }
+  
+  .nav a:hover{
+    background-color: #476422;
+    color: #F6E8B1;
+    outline: none;
+    border: none;
+  }
+  
+  .nav a.active{
+    outline: none;
+    border: none;
+  }
+
+  .nav a.focus{
+    outline: none;
+    border: none;
+  }
+  
+  .dropdown{
+    display: none;
+  }
+
+  .search{
+    display: inline;
+    padding-top: 20px;
+  }
+
+  .shopName{
+    font-size: 40px;
+  }
+  
+  #accountIcon{
+    display: inline;
+    outline: none;
+    border: none;
+  }
+
+  #searchInput{
+    padding: 6px;
+    border: none;
+    font-size: 20px;
+    width: 250px;
+    outline: none;
+  }
+
+  #searchInput:focus{
+    outline: none;
+  }
+
+  #bannerGuitar{
+    display:inline;
+    background-color: #607D3B;
+  }
+
+  .searchIcon{
+    display:none;
+  }
+
+  #submitFull{
+    outline:none;
+    padding: 5px;
+    border:none;
+  }
+
+  #submitFull:hover{
+    background-color: #476422;
+    cursor: pointer;
+    outline:none;
+    border:none;
+  }
+
+  .searchBar{
+    display: flex;
+    align-items: center;
+  }
+
+  .cartFloat{
+    top: 8%;
+  }
+  
+}

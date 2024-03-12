@@ -1,7 +1,6 @@
 /* Mobile View */
 
 .slideshow{
-  max-width: 1000px;
   position: relative;
   margin: auto;
 }
@@ -45,10 +44,6 @@
 /* FullScreen View */
 
 @media screen and (min-width: 600px){
-
-  .slideShow{
-    max-width: 1920px;
-  }
   
   .slideText{
     font-size: 25px;

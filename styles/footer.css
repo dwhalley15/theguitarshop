@@ -3,14 +3,12 @@
 footer{
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
   align-items: center;
-  align-content: center;
   justify-content: flex-start;
   background-color: black;
   padding: 20px;
   color: white;
-  margin-bottom: -200px;
+  margin-top: auto;
   font-size: small;
 }
 

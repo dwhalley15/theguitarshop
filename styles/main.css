@@ -1,9 +1,13 @@
 /* Mobile View */
 
-body{
+*{
   font-family: Georgia, serif;
   padding: 0;
   margin: 0;
+  user-select: none;
+}
+
+body{
   width: 100%;
   height: 100%;
 }

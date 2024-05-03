@@ -1,4 +1,5 @@
-    <footer>
+<script src="../jsScripts/nav.js"></script> 
+<footer>
       <div class="bottom">
         <h3>Menu</h3>
         <a href="#About us">About us</a>
@@ -10,6 +11,3 @@
         <p>The Guitar Shop music store</p>
       </div>
     </footer>
-
-
-

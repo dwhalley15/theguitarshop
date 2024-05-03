@@ -72,7 +72,7 @@
   cursor: pointer;
 }
 
-.dropdown:hover .dropdownContent {
+.dropdown.active .dropdownContent {
   display: block;
 }
 

@@ -1,7 +1,8 @@
-The Guitar Shop
+# The Guitar Shop
 
 The Guitar Shop is an e-commerce platform designed for guitar enthusiasts. It provides a convenient way to browse, purchase, and review guitars and related accessories.
-Features
+
+## Features
 
     Product Catalog: Browse a wide range of guitars and accessories.
     User Authentication: Securely sign up, sign in, and manage your account.
@@ -9,7 +10,7 @@ Features
     Order Management: View and manage your orders.
     Admin Panel: Manage products, orders, and users.
 
-Installation
+## Installation
 
 To run this project locally, follow these steps:
 
@@ -19,12 +20,14 @@ To run this project locally, follow these steps:
 
 2. Start with a PHP development server or configure it with your preferred web server.
 
-Contributing
+## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
-License
+
+## License
 
 This project is licensed under the MIT License.
 
-Contact
+## Contact
+
 For questions or inquiries about the project, feel free to contact the project owner.

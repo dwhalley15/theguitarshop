@@ -4,10 +4,10 @@
 
     //A function to connect to the database.
     function connect(){
-      $username = "your_username_here";
-      $password = "your_password_here";
-      $host = "your_hostame_here";
-      $port = 0000;
+      $username = getenv("USER_NAME");
+      $password = getenv("PASS");
+      $host = getenv("HOST");
+      $port = getenv("PORT");
       $database = $username;
       $conn = new mysqli();
       $conn->init();

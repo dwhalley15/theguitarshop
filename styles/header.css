@@ -53,6 +53,10 @@
   cursor: pointer;
 }
 
+.dropdownBtn, .active{
+  background-color: #607D3B;
+}
+
 .searchIcon{
   padding: 5px;
 }

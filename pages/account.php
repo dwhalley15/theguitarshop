@@ -17,7 +17,7 @@
   ?>
 
   <body>
-    <h3>Welcome <?php echo htmlspecialchars($_SESSION['name'])?> </h3>
+    <h3 class="account-title">Welcome <?php echo htmlspecialchars($_SESSION['name'])?> </h3>
       <ul class='orderNav'>
         <li class='orderLi'><strong>Menu</strong></li>
         <li class='orderLi'> <a class='orderA' id='ordersBtn'>Orders</a></li>

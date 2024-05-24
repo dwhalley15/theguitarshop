@@ -19,7 +19,7 @@
     ?>
 
     <body>
-    <div class="form">
+    <div class="form" id="cart-page">
       
       <?php
         //A function to display all products based on any prod_ids preset in the cart session array.

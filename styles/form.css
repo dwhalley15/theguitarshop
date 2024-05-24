@@ -1,5 +1,14 @@
 /* Mobile View */
 
+.btns{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.login-text{
+  padding-left: 20px;
+}
+
 fieldset{
   border: 2px solid #476422 !important;
   border-radius: 8px !important;
@@ -177,6 +186,18 @@ input:checked + .slider:before {
   opacity: 1;
 }
 
+#optionsTab{
+  min-height: 685px;
+}
+
+#cart-page{
+  min-height: 685px;
+}
+
+.account-title{
+  padding-top: 20px;
+}
+
 /* Fullscreen view */
 
 @media screen and (min-width: 600px){
@@ -189,6 +210,14 @@ input:checked + .slider:before {
     margin: auto;
     padding: 20px;
     width: 70%;
+  }
+
+  #optionsTab{
+    min-height: 937px;
+  }
+
+  #cart-page{
+    min-height: 937px;
   }
 
   .imgUpdate{

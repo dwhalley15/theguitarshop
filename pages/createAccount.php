@@ -75,7 +75,7 @@
                 <p class="error" id="formValidation">Fields marked with * must be completed!</p>
               </fieldset>
           </div>
-          <div>
+          <div class="btns">
               <input type="button" id="prevBtn" name="prevBtn" class="confirmBtn" value="Previous">
               <input type="button" id="nextBtn" name="nextBtn" class="confirmBtn" value="Next">
               <input type="button" id="submitBtn" name="submitBtn" class="confirmBtn" value="Submit">
@@ -87,7 +87,7 @@
         <span class="step" id="stepThree"></span>
         <span class="step" id="stepFour"></span> 
       </div>  
-      <p>Already have an account? <a class="linkBtn" href="login.php">Login</a></p>  
+      <p class="login-text">Already have an account? <a class="linkBtn" href="login.php">Login</a></p>  
     </div>
     <script src="../jsScripts/createAccount.js"></script>
   </body>

@@ -1,5 +1,9 @@
 /* Mobile View */
 
+#home-page-hero{
+  padding-top: 0 !important;
+}
+
 .slideshow{
   position: relative;
   margin: auto;

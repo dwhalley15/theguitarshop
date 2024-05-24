@@ -12,7 +12,7 @@
   ?>
 
   <body>
-    <div class ="form">
+    <div class ="form" id="complete-form">
     
       <?php
         //A post condition to add a user to the database.

@@ -1,7 +1,12 @@
 /* Mobile View */
 
+.content{
+  min-height: 685px;
+  padding-top: 20px;
+}
+
 .listing{
-  display: inline;
+  min-height: 685px;
 }
 
 .card{
@@ -192,6 +197,14 @@
 /* Fullscreen view */
 
 @media screen and (min-width: 600px){
+
+  .content{
+    min-height: 937px;
+  }
+
+  .listing{
+    min-height: 937px;
+  }
   
   .card{
     width: 22.5%;

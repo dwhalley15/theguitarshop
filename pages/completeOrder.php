@@ -17,7 +17,7 @@
     ?>
 
   <body>
-    <div class="form">
+    <div class="form" id="complete-form">
       
       <?php
         //A post condition to add a new purchase to the database with current user_id as the foreign key.

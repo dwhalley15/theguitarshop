@@ -12,7 +12,7 @@
 ?>
 
 <body>
-    <div class="content"> 
+    <div class="content" id="home-page-hero"> 
       <div class='slideshow'>   
         <div class='slide fade'>
           <img src="../images/guitarslide1.jpg" style="width:100%">

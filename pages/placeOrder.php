@@ -17,7 +17,7 @@
     ?>
 
   <body>
-    <div class="form">
+    <div class="form" id="complete-form">
       <form action='completeOrder.php' name='new_order' method='post'>
         <div class='orders'>
           

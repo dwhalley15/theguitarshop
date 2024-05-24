@@ -50,7 +50,7 @@
   ?>
 
   <body>
-    <div class="form"> 
+    <div class="form" id="complete-form"> 
       <h3>Order Number: <?php echo $_GET['order_id'];?></h3>
       <p><?php if(!empty($msg)) echo $msg; ?></p>
       <div class='orders'>
@@ -180,7 +180,7 @@
                         } 
             }
           ?>
-              
+              </div>
         </div>
       </div>
     </div>

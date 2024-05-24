@@ -5,6 +5,10 @@
   height: 860px;
 }
 
+#complete-form{
+  min-height: 685px;
+}
+
 .orderItem{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   width: 100%;
@@ -81,6 +85,10 @@
   .allOrdersTable td{
     padding:5px;
     margin: 5px;
+  }
+
+  #complete-form{
+    min-height: 937px;
   }
   
 }

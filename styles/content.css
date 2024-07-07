@@ -159,11 +159,16 @@
 .cartText{
     flex: 1 1 auto;
     width: 45%;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .cartBtn{
-  width:100%;
+  width: 100%;
   background-color: #476422;
   border: none;
   color: #F6E8B1;
@@ -174,7 +179,6 @@
   box-shadow: 0 9px #999;
   font-family: Georgia, serif;
   cursor: pointer;
-  margin-top: 50px !important;
 }
 
 .cartBtn:hover{
@@ -245,6 +249,10 @@
     width: 60%;
   }
 
+  .cartText{
+    flex-direction: column;
+  }
+
   .cartImg{
     width:10%;
   }
@@ -252,6 +260,7 @@
   .cartBtn{
     font-size: 16px !important;
     margin-top: 40px !important;
+    width: 33.33%;
   }
   
   .cartOrder{
